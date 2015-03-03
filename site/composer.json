@@ -1,0 +1,16 @@
+{
+  "require" : {
+    "silex/silex": "~1.1",
+    "monolog/monolog": "~1.7",
+    "twig/twig": "1.*",
+    "predis/predis": "1.0.1",
+    "predis/service-provider": "1.0.0",
+    "doctrine/dbal": "2.2.*",
+    "symfony/translation": "*",
+    "symfony/config": "*",
+    "symfony/twig-bridge": "*"
+  },
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Dota 2 Year Beast Sighting</title>
+  <link>http://2015.yearbeast.com/</link>
+  <description>Data Feed of Year Beast Sighting, suitable for RSS feed processor</description>
+  <!-- PubSubHubbub Discovery -->
+  <link rel="hub"  href="https://yearbeast2015.superfeedr.com" xmlns="http://www.w3.org/2005/Atom" />
+  <link rel="self" href="http://2015.yearbeast.com/feed.rss{{querystring}}" xmlns="http://www.w3.org/2005/Atom" />
+  {% for b in beast %}
+  <item>
+    <title>Year Beast will appear at {{b.timestampobj|date("H:i",timezone)}}</title>
+    <link>http://2015.yearbeast.com/</link>
+    <description>The next Year Beast will emerge at {{b.timestampobj|date("M d, Y H:i",timezone)}} ({{timezone}})</description>
+    <guid isPermaLink="false">beast{{b.id}}</guid>
+    <pubDate>{{b.pubdateobj|date("r",timezone)}}</pubDate>
+  </item>
+  {% endfor %}
+</channel>
+</rss>

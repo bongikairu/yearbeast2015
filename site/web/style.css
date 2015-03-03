@@ -1,0 +1,176 @@
+/* Year Beast 2015 Website stylesheet by bongikairu */
+
+/* Font */
+.container {
+    font-family: 'Headland One', serif;
+}
+
+/* Language specific */
+
+.container.lang-en {
+
+}
+
+.container.lang-th {
+
+}
+
+.container.lang-fa{
+    font-family: 'B Nazanin', 'B Yekan', tahoma;
+}
+.container.lang-fa h1, 
+.container.lang-fa h2, 
+.container.lang-fa h3, 
+.container.lang-fa h4, 
+.container.lang-fa h5, 
+.container.lang-fa h6, 
+.container.lang-fa .h1, 
+.container.lang-fa .h2, 
+.container.lang-fa .h3, 
+.container.lang-fa .h4, 
+.container.lang-fa .h5, 
+.container.lang-fa .h6,
+.container.lang-fa a,
+.container.lang-fa a:visited {
+    font-family: 'B Yekan', 'B Nazanin', tahoma;
+}
+
+/* Templating */
+
+#beast {
+    text-align: center;
+}
+
+#content {
+    /* width: 900px;
+    margin: 40px auto 10px; */
+    text-align: center;
+    margin-top: 30px;
+}
+
+#content h1 {
+    border-bottom: 1px solid #777;
+}
+
+#content ul {
+    padding-left: 0;
+}
+
+#content ul li {
+    list-style-type: none;
+}
+
+a, a:visited {
+    text-decoration: none;      
+}
+
+.headpadder {
+    display: block;
+    height: 20px;
+    margin: 0;
+    width: 200px;
+}
+
+#statusimg {
+    border-radius: 24px;
+    max-width: 100%;
+}
+
+#statustxt {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#nextappeartitle {
+    color: #aaa;
+}
+
+#nextappear h2 {
+    margin-top: 0;
+}
+
+#timezone {
+    color: #888;
+}
+
+#timezonename {
+    color: #CCC;
+}
+
+#language {
+    font-size: 0.7em;
+}
+
+#language a, #language a:visited {
+    color: #56CCAE;
+}
+
+#footer {
+    color: #555;
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#footer a, #footer a:visited {
+    color: #888;
+    text-decoration: none;      
+}
+
+#speculateinfo {
+    color: #888;
+}
+
+#historylist {
+    margin-bottom: 0;
+}
+
+#headline {
+    margin-top: 20px;
+}
+
+.countdown {
+    color: orange;
+}
+.timedata {
+    color: orange;
+}
+
+.sighting {
+    cursor:pointer;
+}
+
+.inline {
+    display: inline-block;
+}
+
+/* beast */
+/* img.dormant { 
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray;
+    -webkit-filter: grayscale(.8);
+    filter: grayscale(.8);
+}*/
+h1.dormant {
+    color: #FA5300;
+}
+
+/* img.coming {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray;
+    -webkit-filter: grayscale(.8);
+    filter: grayscale(.8);
+} */
+h1.coming {
+    color: #9EEDFF;
+}
+
+/* img.active {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(.0);
+    filter: grayscale(.0);
+} */
+h1.active {
+    color: #00FFB0;
+}

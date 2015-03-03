@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2"><file datatype="plaintext" source-language="en" target-language="fil" original="onesky"><body>
+      <trans-unit id="yearbeast-coming" resname="yearbeast-coming">
+        <source>yearbeast-coming</source>
+            <target>Parating na ang Year Beast</target>
+            </trans-unit>
+      <trans-unit id="yearbeast-here" resname="yearbeast-here">
+        <source>yearbeast-here</source>
+            <target>Nandito na ang Year Beast</target>
+            </trans-unit>
+      <trans-unit id="yearbeast-gone" resname="yearbeast-gone">
+        <source>yearbeast-gone</source>
+            <target>Natutulog pa ang Year Beast</target>
+            </trans-unit>
+      <trans-unit id="beastfleein" resname="beastfleein">
+        <source>beastfleein</source>
+            <target>Tatakas ang Year Beast sa</target>
+            </trans-unit>
+      <trans-unit id="beastemergein" resname="beastemergein">
+        <source>beastemergein</source>
+            <target>Lilitaw ang Year Beast sa</target>
+            </trans-unit>
+      <trans-unit id="nextappearance" resname="nextappearance">
+        <source>nextappearance</source>
+            <target>Susunod na Paglitaw</target>
+            </trans-unit>
+      <trans-unit id="notearlierthan" resname="notearlierthan">
+        <source>notearlierthan</source>
+            <target>Hindi mas aaga sa</target>
+            </trans-unit>
+      <trans-unit id="thatsaround" resname="thatsaround">
+        <source>thatsaround</source>
+            <target>Ito'y humigit-kumulang </target>
+            </trans-unit>
+      <trans-unit id="tafromnow" resname="tafromnow">
+        <source>tafromnow</source>
+            <target> mula ngayon</target>
+            </trans-unit>
+      <trans-unit id="basedonrecords" resname="basedonrecords">
+        <source>basedonrecords</source>
+            <target>* batay sa mga nakaraang rekord</target>
+            </trans-unit>
+      <trans-unit id="determining" resname="determining">
+        <source>determining</source>
+            <target>Tinutukoy..</target>
+            </trans-unit>
+      <trans-unit id="calculating" resname="calculating">
+        <source>calculating</source>
+            <target>Kinakalkula..</target>
+            </trans-unit>
+      <trans-unit id="link_noti" resname="link_noti">
+        <source>link_noti</source>
+            <target>Kunin ang notipikasyong pang-Year Beast sa anumang device</target>
+            </trans-unit>
+      <trans-unit id="link_dota2wiki" resname="link_dota2wiki">
+        <source>link_dota2wiki</source>
+            <target>Impormasyon tungkol sa New Bloom 2015 sa Dota 2 Wiki</target>
+            </trans-unit>
+      <trans-unit id="link_belvedere" resname="link_belvedere">
+        <source>link_belvedere</source>
+            <target>Impormasyon galing kay SirBelvedere</target>
+            </trans-unit>
+      <trans-unit id="link_trollogist" resname="link_trollogist">
+        <source>link_trollogist</source>
+            <target>[GABAY] Paano manalo sa iyong larong Year Beast, F2P! ni trollogist</target>
+            </trans-unit>
+      <trans-unit id="link_cyborgmatt" resname="link_cyborgmatt">
+        <source>link_cyborgmatt</source>
+            <target>Orasan para sa Year Beast, gawa ni Cyborgmatt</target>
+            </trans-unit>
+      <trans-unit id="link_steamstatus" resname="link_steamstatus">
+        <source>link_steamstatus</source>
+            <target>Kalagayan ng mga Steam Services</target>
+            </trans-unit>
+      <trans-unit id="link_reddit_prefix" resname="link_reddit_prefix">
+        <source>link_reddit_prefix</source>
+            <target>Mayroon ka bang mga mungkahi? I-post mo sa </target>
+            </trans-unit>
+      <trans-unit id="link_credit_prefix" resname="link_credit_prefix">
+        <source>link_credit_prefix</source>
+            <target>Pinapatakbo ng </target>
+            </trans-unit>
+      <trans-unit id="headline" resname="headline">
+        <source>headline</source>
+            <target>Headline:</target>
+            </trans-unit>
+      <trans-unit id="timezone" resname="timezone">
+        <source>timezone</source>
+            <target>Timezone:</target>
+            </trans-unit>
+      <trans-unit id="svtime" resname="svtime">
+        <source>svtime</source>
+            <target>SV:</target>
+            </trans-unit>
+      <trans-unit id="cltime" resname="cltime">
+        <source>cltime</source>
+            <target>Ang Iyo:</target>
+            </trans-unit>
+      <trans-unit id="sightinghistory" resname="sightinghistory">
+        <source>sightinghistory</source>
+            <target>Kasaysayan ng Paglitaw ng Year Beast</target>
+            </trans-unit>
+      <trans-unit id="norecords" resname="norecords">
+        <source>norecords</source>
+            <target>Walang rekord</target>
+            </trans-unit>
+      <trans-unit id="usefullinks" resname="usefullinks">
+        <source>usefullinks</source>
+            <target>Mga Kapaki-Kakinabang na Link</target>
+            </trans-unit>
+      <trans-unit id="txt_late" resname="txt_late">
+        <source>txt_late</source>
+            <target>Tila mahuhuli ang paglitaw ng Year Beast</target>
+            </trans-unit>
+      <trans-unit id="txt_duration" resname="txt_duration">
+        <source>txt_duration</source>
+            <target>Tagal:</target>
+            </trans-unit>
+      <trans-unit id="txt_seconds" resname="txt_seconds">
+        <source>txt_seconds</source>
+            <target>segundo</target>
+            </trans-unit>
+      <trans-unit id="txt_note" resname="txt_note">
+        <source>txt_note</source>
+            <target>Tanda:</target>
+            </trans-unit>
+      <trans-unit id="pagetitle" resname="pagetitle">
+        <source>pagetitle</source>
+            <target>Taga-subabay sa Dota 2 Year Beast 2015</target>
+            </trans-unit>
+      <trans-unit id="settings" resname="settings">
+        <source>settings</source>
+            <target>Mga Setting</target>
+            </trans-unit>
+    </body>
+  </file>
+</xliff>

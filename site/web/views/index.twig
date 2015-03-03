@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Dota 2 Year Beast 2015 Tracker</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Auto refresh every 5 mins -->
+		<meta http-equiv="refresh" content="300">
+		<!-- no iframe -->
+		<meta http-equiv="X-FRAME-OPTIONS" content="DENY">
+		<!-- favicon -->
+		<link rel="icon" type="image/png" href="http://cdn2015.yearbeast.com/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="http://cdn2015.yearbeast.com/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="http://cdn2015.yearbeast.com/favicon-16x16.png" sizes="16x16">
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.2/darkly/bootstrap.min.css">
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+		<!-- Date Time script -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.4/jstz.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"></script>
+		<script src="http://cdn2015.yearbeast.com/moment-timezone-with-data-2010-2020.min.js"></script>
+		<script src="http://cdn2015.yearbeast.com/jquery.countdown.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Headland+One' rel='stylesheet' type='text/css'>
+		<!-- Year Beast Script -->
+		<link rel="stylesheet" href="http://cdn2015.yearbeast.com/style.min.css?1424119507">
+		<script type="text/javascript">
+			var pagetitle = "Dota 2 Year Beast 2015 Tracker";
+			var svtimestamp = "{{servertime}}";
+			var txt_late = "Seem like this beast is running late";
+			var txt_duration = "Duration:";
+			var txt_seconds = "seconds";
+			var txt_note = "Note:";
+		</script>
+		<script src="http://cdn2015.yearbeast.com/script.min.js?1424078998"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="headpadder"></div>
+			<div class="row">
+				<div id="beast" class="col-md-offset-1 col-md-5 col-xs-12">
+					<img id="statusimg" class="{{status}}" src="http://cdn2015.yearbeast.com/year_beast_op.jpg" />
+					<h1 id="statustxt" class="{{status}}">
+					{% if status == 'active' %}
+						Year Beast is here
+					{% endif %}
+					{% if status == 'coming' %}
+						Year Beast is coming
+					{% endif %}
+					{% if status == 'dormant' %}
+						Year Beast lies dormant
+					{% endif %}
+					</h1>
+					
+					{% if status == 'active' %}
+					<div>Year Beast will flee in</div>
+					<div id="nextappear">
+						<h2><div class="countdown" attr-expire="{{beastflee}}" attr-ontitle="L ">{{timeleft}}</div></h2>
+						<div>[ <div class="timedata inline" attr-timestamp="{{beastflee}}">Calculating..</div> ]</div>
+					</div>
+					{% endif %}
+
+					{% if status == 'coming' %}
+					<div>Year Beast will emerge in</div>
+					<div id="nextappear">
+						<h2><div class="countdown" attr-expire="{{beastcome}}" attr-ontitle="@ ">{{timeleft}}</div></h2>
+						<div>[ <div class="timedata inline" attr-timestamp="{{beastcome}}">Calculating..</div> ]</div>
+					</div>
+					{% endif %}
+
+					{% if status == 'dormant' %}
+					<div id="nextappeartitle">Next Appearance</div>
+					<div id="nextappear">
+						<h2>Not earlier than<br /><div class="timedata" attr-timestamp="{{nextbeast}}">Calculating..</div></h2>
+						<div id="nextappeardesc">That's around <div class="countdown inline" attr-expire="{{nextbeast}}">{{timeleft}}</div> from now</div>
+						<div id="speculateinfo">* based on previous records</div>
+					</div>
+
+					{% endif %}
+
+					<div id="headline">
+						<div>Headline:</div>
+						<div><a href="http://www.reddit.com/r/DotA2/comments/2vxlet/i_made_a_year_beast_tracker/comqfjf" target="_blank">Get Year Beast notification on any device</a></div>
+					</div>
+				</div>
+
+				<div id="content" class="col-md-5 col-xs-12">
+
+					<div id="timezone">
+						Timezone: <div id="timezonename" class="inline">Determining..</div><!-- <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span></button>--><br />
+						SV: <div id="svtime" class="inline"></div> Yours: <div id="cltime" class="inline"></div>
+					</div>
+
+					<h2>Sighting History</h2>
+					<div>
+						<ul id="historylist">
+							{% for b in beast %}
+								<li><div class="timedata sighting" attr-timestamp="{{b.timestamp}}" attr-duration="{{b.duration}}" attr-comment="{{b.comment|e('html_attr')}}">Calculating..</div></li>
+							{% else %}
+								No records
+							{% endfor %}
+						</ul>
+						<div id="showallhistory">...</div>
+					</div>
+
+					<h2>Useful Links</h2>
+					<div>
+						<ul>
+							<li><a href="http://dota2.gamepedia.com/New_Bloom_Festival_2015" target="_blank">New Bloom 2015 info on Dota 2 Wiki</a></li>
+							<li><a href="http://www.reddit.com/r/DotA2/comments/2vkmws/year_beast_info/" target="_blank">Year Beast Info by SirBelvedere</a></li>
+							<li><a href="http://www.reddit.com/r/DotA2/comments/2vy2in/guidehow_to_win_year_beast_game_f2p/" target="_blank">[GUIDE]How to win Year Beast game, F2P! by trollogist</a></li>
+							<li><a href="http://dota2.cyborgmatt.com/prizetracker/yearbeast" target="_blank">Cyborgmatt's Year Beast Timer</a></li>
+							<li><a href="http://steamstat.us/" target="_blank">Steam Services Status</a></li>
+						</ul>
+					</div>
+
+					<div id="footer" class="col-md-12 col-xs-12">
+						Powered by <a href="https://twitter.com/bongikairu" target="_blank">Penguin</a> Machine 3.1.0<br />
+						Have a suggestion? post it on <a href="http://www.reddit.com/r/DotA2/comments/2vxlet/i_made_a_year_beast_tracker/#" target="_blank">reddit<a/><br />
+						<a href="http://2015.yearbeast.com/history.json" target="_blank">history.json</a> | <a href="http://2015.yearbeast.com/feed.rss" target="_blank">feed.rss</a> | <a href="http://2015.yearbeast.com/plain.txt" target="_blank">plain.txt</a>
+					</div>
+					<!-- Complete Footer Text: https://gist.github.com/bongikairu/f4096ac8a657b95ddfb9 -->
+				</div>
+			</div>
+		</div>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-59718248-1', 'auto');
+			ga('send', {
+				'hitType': 'pageview',
+				'title': pagetitle
+			});
+
+		</script>
+	</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+{% if rtl == true %}<html lang="en" dir="rtl">{% else %}<html lang="en">{% endif %}
+	<head>
+		<title>Dota 2 Year Beast 2015 Tracker</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" content="Dota 2 Year Beast 2015 Tracker let you track all past and future dota 2 year beasts with ease. Find out when the next year beast is coming!">
+		<!-- Auto refresh -->
+		{% if status == 'active' %}
+		<!-- <meta http-equiv="refresh" content="300"> --> 
+		{% endif %}
+		{% if status == 'coming' %}
+		<meta http-equiv="refresh" content="{{ random(['300','360','420','480','540','600']) }}">
+		{% endif %}
+		{% if status == 'dormant' %}
+		<meta http-equiv="refresh" content="{{ random(['300','360','420','480','540','600']) }}">
+		{% endif %}
+		<!-- no iframe -->
+		<meta http-equiv="X-FRAME-OPTIONS" content="DENY">
+		<!-- favicon -->
+		<link rel="icon" type="image/png" href="http://cdn2015.yearbeast.com/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="http://cdn2015.yearbeast.com/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="http://cdn2015.yearbeast.com/favicon-16x16.png" sizes="16x16">
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.2/darkly/bootstrap.min.css">
+		{% if rtl == true %}
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.2.0-rc2/css/bootstrap-rtl.min.css">
+		{% endif %}
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+		<!-- Date Time script -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.4/jstz.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"></script>
+		<script src="http://cdn2015.yearbeast.com/moment-timezone-with-data-2010-2020.min.js"></script>
+		<script src="http://cdn2015.yearbeast.com/jquery.countdown.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Headland+One' rel='stylesheet' type='text/css'>
+		<!-- Year Beast Script -->
+		<link rel="stylesheet" href="http://cdn2015.yearbeast.com/style.min.css?1424490886">
+		<script type="text/javascript">
+			var pagetitle = "{{'pagetitle'|trans}}";
+			var svtimestamp = "{{servertime}}";
+			var txt_late = "{{'txt_late'|trans}}";
+			var txt_duration = "{{'txt_duration'|trans}}";
+			var txt_seconds = "{{'txt_seconds'|trans}}";
+			var txt_note = "{{'txt_note'|trans}}";
+		</script>
+		<script src="http://cdn2015.yearbeast.com/script.min.js?1424482792"></script>
+	</head>
+	<body>
+		<div class="container lang-{{locale}}">
+			<div class="headpadder"></div>
+			<div class="row">
+				<div id="beast" class="col-md-offset-1 col-md-5 col-xs-12">
+					{% if status == 'active' %}
+						<img id="statusimg" class="active" src="http://cdn2015.yearbeast.com/year_beast_op.jpg" />
+					{% endif %}
+					{% if status == 'coming' %}
+						<img id="statusimg" class="coming" src="http://cdn2015.yearbeast.com/year_beast_desat_op.jpg" />
+					{% endif %}
+					{% if status == 'dormant' %}
+						<img id="statusimg" class="dormant" src="http://cdn2015.yearbeast.com/year_beast_desat_op.jpg" />
+					{% endif %}
+					<h1 id="statustxt" class="{{status}}">
+					{% if status == 'active' %}
+						{{'yearbeast-here'|trans}}
+					{% endif %}
+					{% if status == 'coming' %}
+						{{'yearbeast-coming'|trans}}
+					{% endif %}
+					{% if status == 'dormant' %}
+						{{'yearbeast-gone'|trans}}
+					{% endif %}
+					</h1>
+
+					{% if status == 'active' %}
+					<div>{{'beastfleein'|trans}}</div>
+					<div id="nextappear">
+						<h2><div class="countdown" attr-expire="{{beastflee}}" attr-ontitle="L " attr-ontitle-alt="Γ " attr-maxreloaddelay="60000">{{timeleft}}</div></h2>
+						<div>[ <div class="timedata inline" attr-timestamp="{{beastflee}}">{{'calculating'|trans}}</div> ]</div>
+					</div>
+					{% endif %}
+
+					{% if status == 'coming' %}
+					<div>{{'beastemergein'|trans}}</div>
+					<div id="nextappear">
+						<h2><div class="countdown" attr-expire="{{beastcome}}" attr-ontitle="@ " attr-maxreloaddelay="15000">{{timeleft}}</div></h2>
+						<div>[ <div class="timedata inline" attr-timestamp="{{beastcome}}">{{'calculating'|trans}}</div> ]</div>
+					</div>
+					{% endif %}
+
+					{% if status == 'dormant' %}
+					<div id="nextappeartitle">{{'nextappearance'|trans}}</div>
+					<div id="nextappear">
+						<h2>{{'notearlierthan'|trans}}<br /><div class="timedata" attr-timestamp="{{nextbeast}}">{{'calculating'|trans}}</div></h2>
+						<div id="nextappeardesc">{{'thatsaround'|trans}}<div class="countdown inline" attr-expire="{{nextbeast}}" attr-maxreloaddelay="60000">{{timeleft}}</div>{{'tafromnow'|trans}}</div>
+						<div id="speculateinfo">{{'basedonrecords'|trans}}</div>
+					</div>
+
+					{% endif %}
+
+					<div id="headline">
+						<div>{{'headline'|trans}}</div>
+						<div><a href="http://store.steampowered.com/news/15905/">Dota 2 Update - February 24th 2015</a></div>
+					</div>
+				</div>
+
+				<div id="content" class="col-md-5 col-xs-12">
+
+					<div id="timezone">
+						{{'timezone'|trans}} <div id="timezonename" class="inline">{{'determining'|trans}}</div><!-- <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span></button>--><br />
+						{{'svtime'|trans}} <div id="svtime" class="inline"></div> {{'cltime'|trans}} <div id="cltime" class="inline"></div>
+					</div>
+
+					<h2>{{'sightinghistory'|trans}}</h2>
+					<div>
+						<ul id="historylist">
+							{% for b in beast %}
+								<li>
+									<div class="timedata sighting" attr-timestamp="{{b.timestamp}}" attr-duration="{{b.duration}}" attr-comment="{{b.comment|e('html_attr')}}">
+										{{'calculating'|trans}}
+									</div>
+									<div itemscope itemtype="http://schema.org/Event">
+										<meta itemprop="name" content="Year Beast #{{b.id}}" />
+										<meta itemprop="startDate" content="{{b.timestamp|date("c")}}" >{% set endtime = b.timestamp + b.duration %}
+										<meta itemprop="endDate" content="{{endtime|date("c")}}" />
+										<div itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+											<meta itemprop="name" content="DotA 2" />
+											<link itemprop="sameAs" href="http://blog.dota2.com/" />
+											<meta itemprop="address" content="Bellevue, WA 98009" />
+										</div>
+									</div>
+								</li>
+							{% else %}
+								{{'norecords'|trans}}
+							{% endfor %}
+						</ul>
+						<div id="showallhistory">...</div>
+					</div>
+
+					<h2>{{'usefullinks'|trans}}</h2>
+					<div>
+						<ul>
+							<li><a href="http://www.reddit.com/r/DotA2/comments/2vxlet/i_made_a_year_beast_tracker/comqfjf" target="_blank">{{'link_noti'|trans}}</a></li>
+							<li><a href="http://dota2.gamepedia.com/New_Bloom_Festival_2015" target="_blank">{{'link_dota2wiki'|trans}}</a></li>
+							<li><a href="http://www.reddit.com/r/DotA2/comments/2vkmws/year_beast_info/" target="_blank">{{'link_belvedere'|trans}}</a></li>
+							<li><a href="http://www.reddit.com/r/DotA2/comments/2vy2in/guidehow_to_win_year_beast_game_f2p/" target="_blank">{{'link_trollogist'|trans}}</a></li>
+							<li><a href="http://dota2.cyborgmatt.com/prizetracker/yearbeast" target="_blank">{{'link_cyborgmatt'|trans}}</a></li>
+							<li><a href="http://steamstat.us/" target="_blank">{{'link_steamstatus'|trans}}</a></li>
+						</ul>
+					</div>
+
+					<h4>{{'settings'|trans}}</h4>
+					<div id="language">
+						<a href="http://2015.yearbeast.com/l/en">English</a> <a href="http://2015.yearbeast.com/l/ru">Русский</a>  <a href="http://2015.yearbeast.com/l/es_AR">Español</a> <a href="http://2015.yearbeast.com/l/th">ไทย</a> <a href="http://2015.yearbeast.com/l/uk">Українська</a> <a href="http://2015.yearbeast.com/l/fil">Filipino</a><br />
+						<a href="http://2015.yearbeast.com/l/de">Deutsch</a> <a href="http://2015.yearbeast.com/l/fa">Persian</a> <a href="http://2015.yearbeast.com/l/pt_BR">Português</a> <a href="http://2015.yearbeast.com/l/vi">Tiếng Việt</a> <a href="http://2015.yearbeast.com/l/pl">Polski</a> <a href="http://2015.yearbeast.com/l/tr">Türkçe</a> <a href="http://2015.yearbeast.com/l/cs">Čeština</a>
+						<!-- <div id="helptranslate"><a href="http://www.reddit.com/r/DotA2/comments/2vxlet/i_made_a_year_beast_tracker/comzf1f" class="btn btn-default btn-xs">Help us translate</a></div> -->
+					</div>
+
+					<div id="footer" class="col-md-12 col-xs-12">
+						{{'link_credit_prefix'|trans}}<a href="https://gist.github.com/bongikairu/f4096ac8a657b95ddfb9" target="_blank">Penguin Machine 3.1.0</a><br />
+						{{'link_reddit_prefix'|trans}}<a href="http://www.reddit.com/r/DotA2/comments/2vxlet/i_made_a_year_beast_tracker/#" target="_blank">reddit<a/><br />
+						<a href="http://2015.yearbeast.com/history.json" target="_blank">history.json</a> | <a href="http://2015.yearbeast.com/feed.rss" target="_blank">feed.rss</a> | <a href="http://2015.yearbeast.com/plain.txt" target="_blank">plain.txt</a> | <a href="http://2015.yearbeast.com/sitemap.xml" target="_blank">sitemap.xml</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-59718248-1', 'auto');
+			ga('send', {
+				'hitType': 'pageview',
+				'title': pagetitle
+			});
+
+		</script>
+	</body>
+</html>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2"><file datatype="plaintext" source-language="en" target-language="ru_RU" original="onesky"><body>
+      <trans-unit id="yearbeast-coming" resname="yearbeast-coming">
+        <source>yearbeast-coming</source>
+            <target>Годни уже на подходе!</target>
+            </trans-unit>
+      <trans-unit id="yearbeast-here" resname="yearbeast-here">
+        <source>yearbeast-here</source>
+            <target>Битва Годней началась!</target>
+            </trans-unit>
+      <trans-unit id="yearbeast-gone" resname="yearbeast-gone">
+        <source>yearbeast-gone</source>
+            <target>Годни впали в спячку</target>
+            </trans-unit>
+      <trans-unit id="beastfleein" resname="beastfleein">
+        <source>beastfleein</source>
+            <target>Годни убегут через</target>
+            </trans-unit>
+      <trans-unit id="beastemergein" resname="beastemergein">
+        <source>beastemergein</source>
+            <target>Битва Годней начнется через</target>
+            </trans-unit>
+      <trans-unit id="nextappearance" resname="nextappearance">
+        <source>nextappearance</source>
+            <target>Битва Годней начнется</target>
+            </trans-unit>
+      <trans-unit id="notearlierthan" resname="notearlierthan">
+        <source>notearlierthan</source>
+            <target>не раньше, чем</target>
+            </trans-unit>
+      <trans-unit id="thatsaround" resname="thatsaround">
+        <source>thatsaround</source>
+            <target>Примерно через </target>
+            </trans-unit>
+      <trans-unit id="tafromnow" resname="tafromnow">
+        <source>tafromnow</source>
+            <target><![CDATA[]]></target>
+            </trans-unit>
+      <trans-unit id="basedonrecords" resname="basedonrecords">
+        <source>basedonrecords</source>
+            <target>* на основе прошлых событий</target>
+            </trans-unit>
+      <trans-unit id="determining" resname="determining">
+        <source>determining</source>
+            <target>Определяем...</target>
+            </trans-unit>
+      <trans-unit id="calculating" resname="calculating">
+        <source>calculating</source>
+            <target>Рассчитываем...</target>
+            </trans-unit>
+      <trans-unit id="link_noti" resname="link_noti">
+        <source>link_noti</source>
+            <target>Push-уведомления о начале Битвы Годней</target>
+            </trans-unit>
+      <trans-unit id="link_dota2wiki" resname="link_dota2wiki">
+        <source>link_dota2wiki</source>
+            <target>Праздник Новоцвета 2015 на Dota 2 Wiki</target>
+            </trans-unit>
+      <trans-unit id="link_belvedere" resname="link_belvedere">
+        <source>link_belvedere</source>
+            <target>Информация о Битве Годней (на английском)</target>
+            </trans-unit>
+      <trans-unit id="link_trollogist" resname="link_trollogist">
+        <source>link_trollogist</source>
+            <target>Как выиграть Битву Годней, гайд от trollogist (на английском)</target>
+            </trans-unit>
+      <trans-unit id="link_cyborgmatt" resname="link_cyborgmatt">
+        <source>link_cyborgmatt</source>
+            <target>Таймер Битвы Годней от Cyborgmatt</target>
+            </trans-unit>
+      <trans-unit id="link_steamstatus" resname="link_steamstatus">
+        <source>link_steamstatus</source>
+            <target>Состояние серверов Steam</target>
+            </trans-unit>
+      <trans-unit id="link_reddit_prefix" resname="link_reddit_prefix">
+        <source>link_reddit_prefix</source>
+            <target>Есть предложения? Присылайте их на </target>
+            </trans-unit>
+      <trans-unit id="link_credit_prefix" resname="link_credit_prefix">
+        <source>link_credit_prefix</source>
+            <target>Сайт создал </target>
+            </trans-unit>
+      <trans-unit id="headline" resname="headline">
+        <source>headline</source>
+            <target><![CDATA[]]></target>
+            </trans-unit>
+      <trans-unit id="timezone" resname="timezone">
+        <source>timezone</source>
+            <target>Часовой пояс:</target>
+            </trans-unit>
+      <trans-unit id="svtime" resname="svtime">
+        <source>svtime</source>
+            <target>Время сервера:</target>
+            </trans-unit>
+      <trans-unit id="cltime" resname="cltime">
+        <source>cltime</source>
+            <target>Текущее время:</target>
+            </trans-unit>
+      <trans-unit id="sightinghistory" resname="sightinghistory">
+        <source>sightinghistory</source>
+            <target>Предыдущие битвы</target>
+            </trans-unit>
+      <trans-unit id="norecords" resname="norecords">
+        <source>norecords</source>
+            <target>Нет данных</target>
+            </trans-unit>
+      <trans-unit id="usefullinks" resname="usefullinks">
+        <source>usefullinks</source>
+            <target>Полезные ссылки</target>
+            </trans-unit>
+      <trans-unit id="txt_late" resname="txt_late">
+        <source>txt_late</source>
+            <target>Похоже Годни задерживаются</target>
+            </trans-unit>
+      <trans-unit id="txt_duration" resname="txt_duration">
+        <source>txt_duration</source>
+            <target>Длился</target>
+            </trans-unit>
+      <trans-unit id="txt_seconds" resname="txt_seconds">
+        <source>txt_seconds</source>
+            <target>секунд</target>
+            </trans-unit>
+      <trans-unit id="txt_note" resname="txt_note">
+        <source>txt_note</source>
+            <target>Примечание:</target>
+            </trans-unit>
+      <trans-unit id="pagetitle" resname="pagetitle">
+        <source>pagetitle</source>
+            <target>Таймер Битвы Годней 2015 Dota 2</target>
+            </trans-unit>
+      <trans-unit id="settings" resname="settings">
+        <source>settings</source>
+            <target>Настройки</target>
+            </trans-unit>
+    </body>
+  </file>
+</xliff>

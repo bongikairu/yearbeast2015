@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2"><file datatype="plaintext" source-language="en" target-language="cs" original="onesky"><body>
+      <trans-unit id="yearbeast-coming" resname="yearbeast-coming">
+        <source>yearbeast-coming</source>
+            <target>Year Beast přichází</target>
+            </trans-unit>
+      <trans-unit id="yearbeast-here" resname="yearbeast-here">
+        <source>yearbeast-here</source>
+            <target>Year Beast je zde</target>
+            </trans-unit>
+      <trans-unit id="yearbeast-gone" resname="yearbeast-gone">
+        <source>yearbeast-gone</source>
+            <target>Year Beast vyčkává</target>
+            </trans-unit>
+      <trans-unit id="beastfleein" resname="beastfleein">
+        <source>beastfleein</source>
+            <target>Year Beast uprchne za</target>
+            </trans-unit>
+      <trans-unit id="beastemergein" resname="beastemergein">
+        <source>beastemergein</source>
+            <target>Year Beast se objeví za</target>
+            </trans-unit>
+      <trans-unit id="nextappearance" resname="nextappearance">
+        <source>nextappearance</source>
+            <target>Další útok</target>
+            </trans-unit>
+      <trans-unit id="notearlierthan" resname="notearlierthan">
+        <source>notearlierthan</source>
+            <target>Ne dříve než</target>
+            </trans-unit>
+      <trans-unit id="thatsaround" resname="thatsaround">
+        <source>thatsaround</source>
+            <target>To je kolem  </target>
+            </trans-unit>
+      <trans-unit id="tafromnow" resname="tafromnow">
+        <source>tafromnow</source>
+            <target> od teď</target>
+            </trans-unit>
+      <trans-unit id="basedonrecords" resname="basedonrecords">
+        <source>basedonrecords</source>
+            <target>* vycházející z předchozích záznamů</target>
+            </trans-unit>
+      <trans-unit id="determining" resname="determining">
+        <source>determining</source>
+            <target>Odhaduji...</target>
+            </trans-unit>
+      <trans-unit id="calculating" resname="calculating">
+        <source>calculating</source>
+            <target>Vypočítávám...</target>
+            </trans-unit>
+      <trans-unit id="link_noti" resname="link_noti">
+        <source>link_noti</source>
+            <target>Získejte upozornění o Year Beast na Vaše zařízení</target>
+            </trans-unit>
+      <trans-unit id="link_dota2wiki" resname="link_dota2wiki">
+        <source>link_dota2wiki</source>
+            <target>Informace o New Bloom 2015 na Dota 2 wiki</target>
+            </trans-unit>
+      <trans-unit id="link_belvedere" resname="link_belvedere">
+        <source>link_belvedere</source>
+            <target>Informace o Year Beast od SirBelvedere</target>
+            </trans-unit>
+      <trans-unit id="link_trollogist" resname="link_trollogist">
+        <source>link_trollogist</source>
+            <target>[PŘÍRUČKA] Jak vyhrát hru s Year Beast, F2P! od trollogist</target>
+            </trans-unit>
+      <trans-unit id="link_cyborgmatt" resname="link_cyborgmatt">
+        <source>link_cyborgmatt</source>
+            <target>Year Beast časovač od Cyborgmatt</target>
+            </trans-unit>
+      <trans-unit id="link_steamstatus" resname="link_steamstatus">
+        <source>link_steamstatus</source>
+            <target>Status Steam služeb</target>
+            </trans-unit>
+      <trans-unit id="link_reddit_prefix" resname="link_reddit_prefix">
+        <source>link_reddit_prefix</source>
+            <target>Máte nápad? Napište ho na </target>
+            </trans-unit>
+      <trans-unit id="link_credit_prefix" resname="link_credit_prefix">
+        <source>link_credit_prefix</source>
+            <target>Poháněno </target>
+            </trans-unit>
+      <trans-unit id="headline" resname="headline">
+        <source>headline</source>
+            <target>Novinka:</target>
+            </trans-unit>
+      <trans-unit id="timezone" resname="timezone">
+        <source>timezone</source>
+            <target>Časová zóna:</target>
+            </trans-unit>
+      <trans-unit id="svtime" resname="svtime">
+        <source>svtime</source>
+            <target>ČS:</target>
+            </trans-unit>
+      <trans-unit id="cltime" resname="cltime">
+        <source>cltime</source>
+            <target>Vaše:</target>
+            </trans-unit>
+      <trans-unit id="sightinghistory" resname="sightinghistory">
+        <source>sightinghistory</source>
+            <target>Historie útoků</target>
+            </trans-unit>
+      <trans-unit id="norecords" resname="norecords">
+        <source>norecords</source>
+            <target>Žádné záznamy</target>
+            </trans-unit>
+      <trans-unit id="usefullinks" resname="usefullinks">
+        <source>usefullinks</source>
+            <target>Užitečné odkazy</target>
+            </trans-unit>
+      <trans-unit id="txt_late" resname="txt_late">
+        <source>txt_late</source>
+            <target>Vypadá to, že se bestie zpozdila</target>
+            </trans-unit>
+      <trans-unit id="txt_duration" resname="txt_duration">
+        <source>txt_duration</source>
+            <target>Trvání:</target>
+            </trans-unit>
+      <trans-unit id="txt_seconds" resname="txt_seconds">
+        <source>txt_seconds</source>
+            <target>sekund</target>
+            </trans-unit>
+      <trans-unit id="txt_note" resname="txt_note">
+        <source>txt_note</source>
+            <target>Poznámka:</target>
+            </trans-unit>
+      <trans-unit id="pagetitle" resname="pagetitle">
+        <source>pagetitle</source>
+            <target>Dota 2 Year Beast 2015 Tracker</target>
+            </trans-unit>
+      <trans-unit id="settings" resname="settings">
+        <source>settings</source>
+            <target>Nastavení</target>
+            </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2"><file datatype="plaintext" source-language="en" target-language="fa" original="onesky"><body>
+      <trans-unit id="yearbeast-coming" resname="yearbeast-coming">
+        <source>yearbeast-coming</source>
+            <target>Year Beast داره میاد</target>
+            </trans-unit>
+      <trans-unit id="yearbeast-here" resname="yearbeast-here">
+        <source>yearbeast-here</source>
+            <target>Year Beast اومده</target>
+            </trans-unit>
+      <trans-unit id="yearbeast-gone" resname="yearbeast-gone">
+        <source>yearbeast-gone</source>
+            <target>Year Beast فعلا خوابیده</target>
+            </trans-unit>
+      <trans-unit id="beastfleein" resname="beastfleein">
+        <source>beastfleein</source>
+            <target>Year Beast تا این موقع میمونه :</target>
+            </trans-unit>
+      <trans-unit id="beastemergein" resname="beastemergein">
+        <source>beastemergein</source>
+            <target>Year Beast تا این موقع میاد :</target>
+            </trans-unit>
+      <trans-unit id="nextappearance" resname="nextappearance">
+        <source>nextappearance</source>
+            <target>رویت بعدی</target>
+            </trans-unit>
+      <trans-unit id="notearlierthan" resname="notearlierthan">
+        <source>notearlierthan</source>
+            <target>زودتر از این نمیاد :</target>
+            </trans-unit>
+      <trans-unit id="thatsaround" resname="thatsaround">
+        <source>thatsaround</source>
+            <target>حدودا </target>
+            </trans-unit>
+      <trans-unit id="tafromnow" resname="tafromnow">
+        <source>tafromnow</source>
+            <target> از الان</target>
+            </trans-unit>
+      <trans-unit id="basedonrecords" resname="basedonrecords">
+        <source>basedonrecords</source>
+            <target>بر حسب رکوردهای قبلی</target>
+            </trans-unit>
+      <trans-unit id="determining" resname="determining">
+        <source>determining</source>
+            <target>در حال تعیین منطقه زمانی..</target>
+            </trans-unit>
+      <trans-unit id="calculating" resname="calculating">
+        <source>calculating</source>
+            <target>در حال محاسبه..</target>
+            </trans-unit>
+      <trans-unit id="link_noti" resname="link_noti">
+        <source>link_noti</source>
+            <target>گرفتن اطلاع درباره زمان اومدن Year Beast روی هر دستگاهی</target>
+            </trans-unit>
+      <trans-unit id="link_dota2wiki" resname="link_dota2wiki">
+        <source>link_dota2wiki</source>
+            <target>اطلاعات درباره New Bloom 2015 در دوتا ویکی</target>
+            </trans-unit>
+      <trans-unit id="link_belvedere" resname="link_belvedere">
+        <source>link_belvedere</source>
+            <target>اطلاعات درباره Year Beast توسط SirBelvedere</target>
+            </trans-unit>
+      <trans-unit id="link_trollogist" resname="link_trollogist">
+        <source>link_trollogist</source>
+            <target>آموزش : چطوری Year Beast روبرنده بشیم !</target>
+            </trans-unit>
+      <trans-unit id="link_cyborgmatt" resname="link_cyborgmatt">
+        <source>link_cyborgmatt</source>
+            <target>یه تایمر دیگه توسط Cyborgmatt</target>
+            </trans-unit>
+      <trans-unit id="link_steamstatus" resname="link_steamstatus">
+        <source>link_steamstatus</source>
+            <target>وضعیت سرورهای استیم</target>
+            </trans-unit>
+      <trans-unit id="link_reddit_prefix" resname="link_reddit_prefix">
+        <source>link_reddit_prefix</source>
+            <target>پیشنهادی دارین ؟ کلیک کنید </target>
+            </trans-unit>
+      <trans-unit id="link_credit_prefix" resname="link_credit_prefix">
+        <source>link_credit_prefix</source>
+            <target>قدرت گرفته از </target>
+            </trans-unit>
+      <trans-unit id="headline" resname="headline">
+        <source>headline</source>
+            <target>اخبار:</target>
+            </trans-unit>
+      <trans-unit id="timezone" resname="timezone">
+        <source>timezone</source>
+            <target>منطقه زمانی:</target>
+            </trans-unit>
+      <trans-unit id="svtime" resname="svtime">
+        <source>svtime</source>
+            <target>ساعت سرور:</target>
+            </trans-unit>
+      <trans-unit id="cltime" resname="cltime">
+        <source>cltime</source>
+            <target>ساعت شما:</target>
+            </trans-unit>
+      <trans-unit id="sightinghistory" resname="sightinghistory">
+        <source>sightinghistory</source>
+            <target>تاریخچه رویت</target>
+            </trans-unit>
+      <trans-unit id="norecords" resname="norecords">
+        <source>norecords</source>
+            <target>رکوردی موجود نیست</target>
+            </trans-unit>
+      <trans-unit id="usefullinks" resname="usefullinks">
+        <source>usefullinks</source>
+            <target>لینک های مفید</target>
+            </trans-unit>
+      <trans-unit id="txt_late" resname="txt_late">
+        <source>txt_late</source>
+            <target>به نظر میرسه که Year Beast دیرتر میاد !</target>
+            </trans-unit>
+      <trans-unit id="txt_duration" resname="txt_duration">
+        <source>txt_duration</source>
+            <target>مدت:</target>
+            </trans-unit>
+      <trans-unit id="txt_seconds" resname="txt_seconds">
+        <source>txt_seconds</source>
+            <target>ثانیه</target>
+            </trans-unit>
+      <trans-unit id="txt_note" resname="txt_note">
+        <source>txt_note</source>
+            <target>اطلاعات:</target>
+            </trans-unit>
+      <trans-unit id="pagetitle" resname="pagetitle">
+        <source>pagetitle</source>
+            <target>تایمرYear Beast 2015 Dota 2</target>
+            </trans-unit>
+      <trans-unit id="settings" resname="settings">
+        <source>settings</source>
+            <target>تنظیمات</target>
+            </trans-unit>
+    </body>
+  </file>
+</xliff>
