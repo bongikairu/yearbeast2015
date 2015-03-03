@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Dota 2 Year Beast Sighting</title>
+  <link>http://2015.yearbeast.com/</link>
+  <description>Data Feed of Year Beast Sighting, suitable for RSS feed processor</description>
+  <!-- PubSubHubbub Discovery -->
+  <link rel="hub"  href="https://yearbeast2015.superfeedr.com" xmlns="http://www.w3.org/2005/Atom" />
+  <link rel="self" href="http://2015.yearbeast.com/feed.rss" xmlns="http://www.w3.org/2005/Atom" />
+    <item>
+    <title>Year Beast will appear at 14:38</title>
+    <link>http://2015.yearbeast.com/</link>
+    <description>The next Year Beast will emerge at Mar 02, 2015 14:38 (America/Chicago)</description>
+    <guid isPermaLink="false">beast7831</guid>
+    <pubDate>Mon, 02 Mar 2015 12:38:10 -0600</pubDate>
+  </item>
+    <item>
+    <title>Year Beast will appear at 11:04</title>
+    <link>http://2015.yearbeast.com/</link>
+    <description>The next Year Beast will emerge at Mar 02, 2015 11:04 (America/Chicago)</description>
+    <guid isPermaLink="false">beast7641</guid>
+    <pubDate>Mon, 02 Mar 2015 09:04:10 -0600</pubDate>
+  </item>
+    <item>
+    <title>Year Beast will appear at 07:22</title>
+    <link>http://2015.yearbeast.com/</link>
+    <description>The next Year Beast will emerge at Mar 02, 2015 07:22 (America/Chicago)</description>
+    <guid isPermaLink="false">beast7451</guid>
+    <pubDate>Mon, 02 Mar 2015 05:22:10 -0600</pubDate>
+  </item>
+    <item>
+    <title>Year Beast will appear at 03:32</title>
+    <link>http://2015.yearbeast.com/</link>
+    <description>The next Year Beast will emerge at Mar 02, 2015 03:32 (America/Chicago)</description>
+    <guid isPermaLink="false">beast7261</guid>
+    <pubDate>Mon, 02 Mar 2015 01:32:10 -0600</pubDate>
+  </item>
+    <item>
+    <title>Year Beast will appear at 00:19</title>
+    <link>http://2015.yearbeast.com/</link>
+    <description>The next Year Beast will emerge at Mar 02, 2015 00:19 (America/Chicago)</description>
+    <guid isPermaLink="false">beast7141</guid>
+    <pubDate>Sun, 01 Mar 2015 22:19:10 -0600</pubDate>
+  </item>
+  </channel>
+</rss>
